@@ -1,0 +1,17 @@
+para correr el proyecto
+primero van a tener que copiar
+y pegar el archivo .env.example(osea les debe de quedar .env.example y .env.example.example )
+y renombrarlo a .env (.env.example.example y pasarlo .env)
+luego de eso van a la terminarl y van copiar y pegar esto :
+php artisan key:generate
+
+luego de eso van a la terminarl y van copiar
+composer install
+y luego de eso van a la terminarl y van copiar
+npm install
+luego en la terminarl y van copiar
+php artisan storage:link
+luego van a la terminarl y van copiar
+php artisan migrate
+luego de eso le van a poner
+php artisan migrate:fresh --seed
